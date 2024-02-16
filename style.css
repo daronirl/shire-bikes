@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: url('./images/hero.jpg') rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar a {
+    color: #fff;
+    
+}
+
+.hero {
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2rem;
+}
