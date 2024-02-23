@@ -74,4 +74,37 @@ header {
     margin-bottom: 15px;
 }
 
+.second-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.second-section .row-2 {
+    padding: 35x 5px;
+}
+
+.second-section h4 {
+    padding: 15px 5px;
+}
+
+.second-section img {
+    width: 95%;
+    height: 95%;
+
+  
+}
+
+
+@media (min-wdith: 768px) {
+
+    .second-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
 
