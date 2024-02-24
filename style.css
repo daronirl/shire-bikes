@@ -74,37 +74,40 @@ header {
     margin-bottom: 15px;
 }
 
-.second-section {
-    padding: 20px;
+.second-section, .third-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    padding: 10px;
 }
 
-.second-section .row-2 {
-    padding: 35x 5px;
-}
-
-.second-section h4 {
-    padding: 15px 5px;
-}
 
 .second-section img {
     width: 95%;
     height: 95%;
-
-  
 }
 
-
-@media (min-wdith: 768px) {
-
-    .second-section {
-        display: flex;
-        flex-direction: row;
-    }
-
+.third-section img {
+    width: 95%;
+    height: 95%;
 }
 
+.row-1 {
+    padding: 35px 10px;
+}
+
+.ride-now {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.ride-now img {
+    max-width: 100%;
+    max-height: 100%;
+}
