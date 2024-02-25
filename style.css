@@ -80,7 +80,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 
@@ -105,9 +105,26 @@ header {
     align-items: center;
     text-align: center;
     padding: 50px 0;
+    background-image: url('./images/ridenow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.ride-now img {
-    max-width: 100%;
-    max-height: 100%;
+.ride-now h2 {
+    color: #fff;
+    text-shadow: white 20px 20px 10px;
+}
+
+.ride-now p {
+    color: #fff;
+    text-shadow: white 20px 20px 10px;
+
+}
+
+
+
+footer {
+    background-color: black;
+    padding: 50px;
 }
